@@ -1,0 +1,46 @@
+/* Formatação CSS */
+
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+    color: #f3f3f3;
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3 {
+    color: black;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* Fim formatação CSS */
+
